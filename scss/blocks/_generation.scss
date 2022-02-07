@@ -8,9 +8,9 @@
 
 .generation__img{
   position: absolute;
-  width: 1000px;
-  height: 1000.99px;
-  left: 686px;
+  // width: 1000px;
+  // height: 1000.99px;
+  left: 699px;
   top: 10px;
   background-position: 100%;
 }
@@ -30,6 +30,7 @@
   line-height: 64px;
   letter-spacing: -1px;
   color: #2D314D;
+  margin-top: 0;
 }
 
 .generation__text{
@@ -101,9 +102,10 @@
     display: block;
     width: 100%;
     max-width: 1160px;
+    object-fit: contain;
     height: 779.99px;
     left: -5px;
-    top: -56px;
+    top: -86px;
     // right: calc(50%+100px);
   }
   
