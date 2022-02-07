@@ -891,24 +891,9 @@ img {
   color: #2D314D;
 }
 
-.category__line {
-  width: 100%;
-  max-width: 635px;
-  height: 2px;
-  display: none;
-  background: #C4C4C4;
-}
-
 @media only screen and (max-width: 425px) {
   .category {
     padding: 0;
-  }
-  .category__line {
-    width: 100%;
-    max-width: 635px;
-    height: 2px;
-    display: block;
-    background: #C4C4C4;
   }
   .category__info {
     margin-top: 10px;
