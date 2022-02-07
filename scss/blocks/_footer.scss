@@ -1,0 +1,154 @@
+.footer{
+  background-color: #2D314D;
+  padding: 48px 165px;
+}
+
+.container-footer{
+  width: 100%;
+  max-width: 1450px;
+  padding: 0 5px;
+}
+
+.footer__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__item{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__item--inner{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-right: 400px;
+}
+.footer__item--info{
+  flex-direction: column;
+}
+
+.footer__item--mdf{
+  flex-direction: column;
+}
+
+.footer__box{
+  display: flex;
+}
+
+.footer__logo{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__logo--mdf{
+  margin-bottom: 55px;
+}
+
+.footer__logo + .footer__logo{
+  margin-left: 13px;
+}
+
+.footer__logo:hover{
+  color: #30C88F;
+}
+
+.footer__link{
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer__link:hover{
+  color: #30C88F;
+}
+
+.footer__link:active{
+  color: #30C88F;
+}
+
+.footer__text{
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px; 
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.footer__link--mdf{
+  padding: 8px 36px 8px 63px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  color: #FFFFFF;
+}
+
+.footer__link--mdf:hover{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  opacity: 0.4;
+  border-radius: 22px;
+}
+
+@media only screen and (max-width: 425px){
+  .footer{
+    max-width: 100%;
+    padding: 40px 77px;
+  }
+  
+  .footer__item--inner{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .footer__box{
+    margin-bottom: 34px;
+    align-items: center;
+  }
+
+  .footer__list{
+    padding-left: 0;
+  }
+  
+  .footer__link{
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  
+  .footer__link--mdf{
+    padding: 8px 36px 8px 33px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    color: #FFFFFF;
+  }
+  
+  .container-footer{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .footer__text{
+    text-align: center;
+  }
+  
+  .footer__logo--mdf{
+    margin-top: 40px;
+  }
+  
+  .footer__link--mdf{
+    margin-bottom: 24px;
+  }
+  
+  
+  .footer__list{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
