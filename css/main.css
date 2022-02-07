@@ -910,6 +910,10 @@ img {
     display: block;
     background: #C4C4C4;
   }
+  .category__info {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
   .category__inner {
     width: 100%;
     max-width: 370px;
@@ -926,6 +930,9 @@ img {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+  }
+  .category__item + .category__item {
+    margin-left: 0;
   }
   .category__title {
     font-size: 20px;
@@ -946,7 +953,7 @@ img {
   .category__item:nth-child(2):before {
     content: "";
     display: block;
-    width: 85px;
+    width: 100px;
     height: 85px;
     background-image: url("../images/img2.svg");
     background-repeat: no-repeat;
@@ -1052,6 +1059,9 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .article__item + .article__item {
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */

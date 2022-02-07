@@ -94,7 +94,6 @@
 }
 
 @media only screen and (max-width: 425px){
-
   
   .category{
     padding: 0;
@@ -106,6 +105,11 @@
     height: 2px;
     display: block;
     background: #C4C4C4;
+  }
+
+  .category__info{
+    margin-top: 10px;
+    margin-bottom: 0;
   }
   
   .category__inner{
@@ -126,6 +130,10 @@
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+  }
+
+  .category__item + .category__item{
+    margin-left: 0;
   }
   
   .category__title{
@@ -149,7 +157,7 @@
   .category__item:nth-child(2):before{
     content: "";
     display: block;
-    width: 85px;
+    width: 100px;
     height: 85px;
     background-image: url("../images/img2.svg");
     background-repeat: no-repeat;
